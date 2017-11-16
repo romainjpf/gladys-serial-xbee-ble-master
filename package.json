@@ -1,5 +1,5 @@
 {
-  "name": "gladys-serial-xbee-ble",
+  "name": "gladys-serial",
   "version": "0.1.0",
   "description": "Gladys hooks to send and receive data threw serial port.",
   "main": "index.js",
