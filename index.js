@@ -4,6 +4,7 @@ module.exports = function(sails) {
     var connect = require('./lib/connect.js');
     var sendCode = require('./lib/sendCode.js');
     var install = require('./lib/install.js');
+    var install = require('./lib/uninstall.js');
 
     gladys.on('ready', function(){
         connect();
@@ -11,6 +12,7 @@ module.exports = function(sails) {
 
     return {
         install: install,
+        uninstall: uninstall,
         connect: connect,
         setup: setup,
         sendCode: sendCode
